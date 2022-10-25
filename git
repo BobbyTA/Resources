@@ -1,0 +1,3 @@
+Git init
+Git add -a 
+Git commit -m "comment message"
