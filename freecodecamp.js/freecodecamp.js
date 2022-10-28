@@ -219,8 +219,8 @@ isLess(10, 15);
 
 */
 
-function abTest(a, b) {
-if(a<0 || b<0){
+function abTest(a, b) {//function takes two parameters a and b
+if(a<0 || b<0){ //if statement states if a or b are less than 0 go to return undefined.
 return(undefined);
 }
 
@@ -232,17 +232,17 @@ abTest(2,2);
 
 
 let count = 0;
-
-function cc(card) {
+//global count variable
+function cc(card) {//created function named cc(cardcounting) with the input of card
   // Only change code below this line
-  switch(card){
-    case 2:
+  switch(card){//switch statement with the input of card
+    case 2:// the first set of case numbers  are the set that will be added
     case 3:
     case 4:
     case 5:
     case 6:
-      count++;
-      break;
+      count++;// count is incremented by 1
+      break;//break to separate new case statements for my decrements
     case 10:
     case "J":
     case "Q":
@@ -250,7 +250,7 @@ function cc(card) {
     case "A":
       count--;
       break;
-  }
+  }//next we create a if statement if the count is more than 0 we want to return count + bet and if not we return count + git shold
   if (count > 0) {
     return count + " Bet";
   } else {
