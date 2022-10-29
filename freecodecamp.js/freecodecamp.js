@@ -334,3 +334,21 @@ const myDog = {
 
 myDog.bark = "ruff-ruff";
 //adding new properties to an javascript object
+
+// Setup
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+delete myDog.tails;
+
+//exercise on deleted an objects property
+
+
+
+
