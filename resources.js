@@ -4,3 +4,10 @@
 
 //arrays multi lined comments with that holds multiple values
 
+function isEven(){
+    //switch(input):
+    case 2:
+        return true
+    case 3:
+        return true
+}

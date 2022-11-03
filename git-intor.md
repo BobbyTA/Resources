@@ -1,6 +1,6 @@
 Intro to Git
 ------------
-
+command option L format code
 Version control system (resume.pdf, resumeFINAL.pdf)
     - permanent record (series of commits)
     - time machine     (ability to checkout a commit)
