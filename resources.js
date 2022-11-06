@@ -23,3 +23,14 @@ while(i >= 0) {
     myArray.push(i);
     i--;
 }
+
+
+//                             creating for loop that loops through values 1-5
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+for (let i= 1; i< 6; i++){
+    myArray.push(i);
+}
