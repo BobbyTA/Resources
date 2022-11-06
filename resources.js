@@ -11,3 +11,15 @@ function isEven(){
     case 3:
         return true
 }
+
+
+//                         creating while loop that begins at 5 and decends.
+// Setup
+const myArray = [];
+
+// Only change code below this line
+let i = 5;
+while(i >= 0) {
+    myArray.push(i);
+    i--;
+}
