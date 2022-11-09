@@ -116,3 +116,18 @@ updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 // If prop is tracks but the album doesn't have a tracks property, create an empty array and add value to it.
 // If prop is tracks and value isn't an empty string, add value to the end of the album's existing tracks array.
 // If value is an empty string, delete the given prop property from the album
+
+
+
+
+//Add two numbers
+//question You are given two non-empty linked lists representing two non-negative integers. The digits are stored in
+// reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+// You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+/*  two empty linked list that represent two non negative intergers.
+the numbers are reversed
+each node contains one digit
+add two numbers and return the sum as a linked list
+assume two numbers do not have leading zero except 0
+*/
