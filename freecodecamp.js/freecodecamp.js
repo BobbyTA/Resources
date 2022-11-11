@@ -395,3 +395,17 @@ function checkObj(obj, checkProp) {
 }
 // Only change code above this line
 }
+
+
+
+//                creating do while loop
+// Setup
+const myArray = [];
+let i = 10;
+
+// Only change code below this line
+do {
+  myArray.push(i);
+  i++;
+} while (i <= 10);
+
