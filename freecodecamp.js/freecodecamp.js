@@ -479,3 +479,12 @@ function randomFraction() {
 
   // Only change code above this line
 }
+
+
+// generating random whole numbers
+function randomWholeNum() {
+
+  // Only change code below this line
+
+  return Math.floor(Math.random() * 10);
+}
