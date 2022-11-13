@@ -498,6 +498,15 @@ function randomRange(myMin, myMax) {
 //demonstration using parseInt
 function convertToInteger(str) {
   return parseInt(str);
-}
+}convertToInteger("56");
+
+//using a parstInt with radix
+function convertToInteger(str) {
+
+  return parseInt(str,2)}
+
+convertToInteger("10011");
+
+
 
 convertToInteger("56");
