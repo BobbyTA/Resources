@@ -508,5 +508,7 @@ function convertToInteger(str) {
 convertToInteger("10011");
 
 
-
-convertToInteger("56");
+//use conditional ternary operator
+function checkEqual(a, b) {
+  return a === b ? "Equal" : "Not Equal";
+}
