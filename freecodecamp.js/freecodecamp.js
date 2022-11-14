@@ -544,3 +544,5 @@ function checkEqual(a, b) {
       return numbers;
     }
   }
+
+  //
