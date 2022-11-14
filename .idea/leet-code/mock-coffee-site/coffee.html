@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title> <!--Bootstrap Link-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> <!-- Add font awesome icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!--Google Fonts Link-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Lemonada&family=Special+Elite&display=swap"
+      rel="stylesheet"> <!--CSS Link-->
+<link rel="stylesheet" href="mock-coffee-site/css.css">
+</head>
+<body><h2 class="col-md-12 col-sm-6">Coffee Shop!</h2>
+<hr>
+<div class="container">
+    <div class="row"> <!--Coffee List-->
+        <div class="col-md-6"><h3 class="header3">Coffee List:</h3>
+            <div id="coffees"></div>
+        </div> <!--Coffee Selections-->
+        <div class="col-md-6"> <!--First Form (Choose your coffee)-->
+            <div class="select-coffee">
+                <div class="card"><h3>Choose your coffee!</h3>
+                    <div class="card-body"><h4 class="card-title">Roast:</h4>
+                        <p class="card-text"><label for="roast-selection"></label> <select id="roast-selection">
+                            <option>All</option>
+                            <option>Light</option>
+                            <option>Medium</option>
+                            <option>Dark</option>
+                        </select></p>
+                        <h4 class="card-title">Coffee Name:</h4>
+                        <p class="card-text"><label for="searchCoffee" class="form-label"></label> <input type="search"
+                                                                                                          id="searchCoffee"
+                                                                                                          placeholder="Search Coffee Name">
+                        </p> <input id="submit" type="submit"/></div>
+                </div>
+            </div>
+            <hr> <!--Second Form (Make your own coffee)-->
+            <div class="make-coffee">
+                <div class="card"><h3>Create your own coffee!</h3>
+                    <div class="card-body"><h4 class="card-title">Roast:</h4>
+                        <p class="card-text"><label for="userCoffeeRoast"></label> <select id="userCoffeeRoast">
+                            <option>Light</option>
+                            <option>Medium</option>
+                            <option>Dark</option>
+                        </select></p>
+                        <h4 class="card-title">Name your coffee:</h4>
+                        <p class="card-text"><label for="newCoffee" class="form-label"></label> <input type="text"
+                                                                                                       id="newCoffee"
+                                                                                                       placeholder="Enter New Coffee Name">
+                        </p> <input value="Add New Coffee" id="newCoffee-submit" type="button"/></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!--Bootstrap Script Tag-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script> <!--JavaScript Script Tag-->
+<script src="main.js"></script>
+</body>
+<foot><a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a> <a href="#" class="fa fa-linkedin"></a> <a
+        href="#" class="fa fa-youtube"></a> <a href="#" class="fa fa-instagram"></a> <a href="#" class="fa fa-pinterest"></a> <a
+        href="#" class="fa fa-snapchat-ghost"></a> <a href="#" class="fa fa-vine"></a> <a href="#" class="fa fa-reddit"></a> <a
+        href="#" class="fa fa-rss"></a></foot>
+</html>

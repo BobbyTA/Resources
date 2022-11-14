@@ -1,0 +1,158 @@
+table {
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+body {
+    margin: 40px;
+    background-image: url("img/coffee-beans.jpeg");
+    background-color: sandybrown;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+}
+
+h2 {
+    margin: auto;
+    font-size: 100px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: xx-large;
+    font-family: 'Lemonada', cursive;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.header3 {
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.container {
+    background-color: sandybrown;
+}
+
+.card {
+    background-color: sandybrown;
+    border: none;
+    margin-top: 50px;
+}
+
+.card-text {
+    display: flex;
+    align-content: center;
+}
+
+#coffees {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#submit, #newCoffee-submit {
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+#roast-selection, #userCoffeeRoast {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#searchCoffee, #newCoffee {
+    width: 75%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #DD4B39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007BB5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #BB0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #CB2027;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #FFFC00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-vine {
+    background: #00B489;
+    color: white;
+}
+
+.fa-soundcloud {
+    background: #FF5500;
+    color: white;
+}
+
+.fa-reddit {
+    background: #FF5700;
+    color: white;
+}
+
+.fa-rss {
+    background: #FF6600;
+    color: white;
+}
+
