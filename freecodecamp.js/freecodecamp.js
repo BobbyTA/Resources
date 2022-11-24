@@ -598,3 +598,6 @@ function checkEqual(a, b) {
   };
 // test your code
   console.log(myConcat([1, 2], [3, 4, 5]));
+
+  //Set Default Parameters for Your Functions
+
