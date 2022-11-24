@@ -604,3 +604,5 @@ function checkEqual(a, b) {
 
   console.log(increment(5, 2)); // returns 7
   console.log(increment(5)); // returns 6
+
+//Use the Rest Parameter with Function Parameters
