@@ -610,3 +610,11 @@ function checkEqual(a, b) {
     return args.reduce((a, b) => a + b, 0);
   }
   console.log(sum(1, 2, 3)); // 6
+
+  function convertCtoF(celsius) {
+    let fahrenheit = celsius * (9 / 5) + 32;
+    return fahrenheit;
+  }
+
+// Change the inputs below to test your code
+  convertCtoF(30);
