@@ -618,3 +618,6 @@ function checkEqual(a, b) {
 
 // Change the inputs below to test your code
   convertCtoF(30);
+  //function to convert fhrenheit to celsius
+//declared farenheit equal to celsius and included conversion formula
+//finally returned result
