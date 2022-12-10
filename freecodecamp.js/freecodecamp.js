@@ -621,3 +621,14 @@ function checkEqual(a, b) {
   //function to convert fhrenheit to celsius
 //declared farenheit equal to celsius and included conversion formula
 //finally returned result
+
+
+  function testElseIf(val) {
+    if (val > 10) {
+      return "Greater than 10";
+    } else if (val < 5){
+      return "Smaller than 5"
+    } else {
+      return "Between 5 and 10";
+    }};
+//practicing creating if else statements
