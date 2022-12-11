@@ -632,3 +632,15 @@ function checkEqual(a, b) {
       return "Between 5 and 10";
     }};
 //practicing creating if else statements
+
+
+  //creating a function that takes a string in and reverses it
+  //first we return the string and use split to turn our string into any array then we reverse the array and join it back together
+  function reverseString(str) {
+    return str
+        .split("")
+        .reverse()
+        .join("")
+  }
+
+  reverseString("hello");
