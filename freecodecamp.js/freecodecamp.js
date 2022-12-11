@@ -655,3 +655,8 @@ function checkEqual(a, b) {
   }
 // For all numbers passed to the function which are greater than one, the loop i by one each iteration.
   factorialize(5);
+
+//convert minutes to hours
+  function convert(minutes) {
+    return minutes * 60;
+  }
