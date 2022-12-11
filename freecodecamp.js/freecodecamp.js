@@ -660,3 +660,7 @@ function checkEqual(a, b) {
   function convert(minutes) {
     return minutes * 60;
   }
+
+  function calcAge(age) {
+    return age*365;
+  }
