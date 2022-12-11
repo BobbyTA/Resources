@@ -644,3 +644,14 @@ function checkEqual(a, b) {
   }
 
   reverseString("hello");
+
+
+  function factorialize(num) {
+    let product = 1;
+    for (let i = 2; i <= num; i++) {
+      product *= i;
+    }
+    return product;
+  }
+// For all numbers passed to the function which are greater than one, the loop i by one each iteration.
+  factorialize(5);
