@@ -664,3 +664,8 @@ function checkEqual(a, b) {
   function calcAge(age) {
     return age*365;
   }
+
+  function getFirstValue(arr) {
+    return arr[0];
+  }
+
