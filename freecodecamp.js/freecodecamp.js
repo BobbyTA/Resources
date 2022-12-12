@@ -669,3 +669,12 @@ function checkEqual(a, b) {
     return arr[0];
   }
 //formula for returning the first value in an array
+
+
+  const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+  let arr2;
+
+  arr2 = [...arr1];  // Change this line
+
+  console.log(arr2);
+  //...arr returns an unpacked array.  it spreads the array.
