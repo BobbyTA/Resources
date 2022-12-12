@@ -668,4 +668,4 @@ function checkEqual(a, b) {
   function getFirstValue(arr) {
     return arr[0];
   }
-
+//formula for returning the first value in an array
