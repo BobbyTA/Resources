@@ -678,3 +678,6 @@ function checkEqual(a, b) {
 
   console.log(arr2);
   //...arr returns an unpacked array.  it spreads the array.
+
+  let yourArray = ["cat", 6 , true, "color", undefined ];
+  console.log(yourArray.length);
