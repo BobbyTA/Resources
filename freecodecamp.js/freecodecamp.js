@@ -681,3 +681,20 @@ function checkEqual(a, b) {
 
   let yourArray = ["cat", 6 , true, "color", undefined ];
   console.log(yourArray.length);
+
+
+  function mixedNumbers(arr) {
+    // Only change code below this line
+
+    function mixedNumbers(arr) {
+      arr.unshift("I", 2, "three");
+      arr.push(7, "VIII", 9);
+      return arr;
+    }
+
+// do not change code below this line
+    console.log(mixedNumbers(["IV", 5, "six"]));
+    return arr;
+  }
+
+  console.log(mixedNumbers(['IV', 5, 'six']));
