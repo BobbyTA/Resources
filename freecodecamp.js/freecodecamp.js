@@ -683,6 +683,8 @@ function checkEqual(a, b) {
   console.log(yourArray.length);
 
 
+
+  //in this exercise a function was created to push and unshift onto an existing array
   function mixedNumbers(arr) {
     // Only change code below this line
 
